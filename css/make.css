@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Beef'd";
+  src: url("/fonts/Beef'd.ttf");
+}
+
+body{
+  height:100%;
+  width: 100%;
+  margin:0;
+}
+
+.outer {
+  position:relative;
+}
+
+.lvl {
+  position: absolute;
+  width:100%;
+}
+
+#make{
+  font-family: "Beef'd";
+  font-size: 350%;
+  color: white;
+  text-align:center;
+}
+
+button {
+  border-radius: 50%;
+  padding: 0.4em 0.7em;
+  font-size: 150%;
+  text-align:center;
+}
+
+#lvl-1 {
+  background-color: #82eaff;  
+}
+
+#lvl-2{
+  background-color: #a8e479;
+}
+
+#lvl-3{
+  background-color: #ffa373;
+}
+
+#lvl-4{
+  background-color: #a37cee;  
+}
+
+.central-btns {
+  color: white;
+  border: 0.5px solid white;
+  background-color: transparent;
+}
+
+.top-btns {
+  border: none;
+  color: white;
+}
+
+.btn-container {
+  margin: auto;
+  display:inline-block;
+}
+
+#home {
+  background-color: #ffa373;
+  margin: 0.5em;
+}
+
+#blog {
+  background-color: #a8e479;
+  margin:0.5em;
+}
+
+#about {
+  background-color: #a37cee;
+  margin:0.5em;
+}
+
+#mentor{
+  margin: 0.5em;
+}
+
+#part{
+  margin:0.5em;
+}
+
+.mid-btn-container {
+  margin: auto;
+  display:inline-block;
+}
