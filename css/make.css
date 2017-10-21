@@ -14,6 +14,7 @@ body{
   font-family: Arial;
   color: white;
   font-size: 14pt;
+  background: #a37cee;
 }
 
 .outer {
@@ -21,9 +22,7 @@ body{
 }
 
 .lvl{
-  /* position: absolute; */
   display:block;
-  width:100%;
 }
 
 #make{
@@ -48,6 +47,7 @@ button {
 #lvl-2{
   background-color: #a8e479;
   padding: 0.5rem;
+  text-align:center;
 }
 
 #lvl-3{
