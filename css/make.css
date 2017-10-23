@@ -44,10 +44,9 @@ body{
 button {
     border-radius:30px;
     padding: 8px 25px;
-    font-size: 1.9rem;
-    font-weight: 200;
+    font-size: 1.3rem;
     display: inline-block;
-    text-transform: upppercase;
+    text-transform: uppercase;
     text-align: center;
     color: white;
     background-color:transparent;
