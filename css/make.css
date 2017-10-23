@@ -3,18 +3,12 @@
   src: url("../fonts/Beef'd.ttf");
 }
 
-html{
-  height: 100%;
-}
-
 body{
-  height:100%;
-  width: 100%;
   margin:0;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 14pt;
-  background: #a37cee;
+  background: #82eaff; 
 }
 
 .outer {
@@ -32,77 +26,48 @@ body{
   text-align:center;
 }
 
-button {
-  border-radius: 50%;
-  padding: 0.4em 0.7em;
-  font-size: 125%;
-  text-align:center;
-}
 
 #lvl-1 {
   background-color: #82eaff;  
   text-align:center;
-}
-
-#lvl-2{
-  background-color: #a8e479;
-  padding: 0.5rem;
-  text-align:center;
+  height:100%;
 }
 
 #lvl-3{
+    background-color: #a8e479;
+    text-align:center;
+    height:100%;
+    padding: 3%;
+}
+
+button {
+    border-radius:30px;
+    padding: 8px 25px;
+    font-size: 1.9rem;
+    font-weight: 200;
+    display: inline-block;
+    text-transform: upppercase;
+    text-align: center;
+    color: white;
+    background-color:transparent;
+    border:solid 4px white;
+    cursor: pointer;
+}
+
+#lvl-2{
   background-color: #ffa373;
   padding: 0.5rem;
+  text-align:center;
+  height:100%;
 }
+
 
 #lvl-4{
   background-color: #a37cee;  
   padding: 0.5rem;
+  height:100%;
 }
 
-.central-btns {
-  color: white;
-  border: 0.5px solid white;
-  background-color: transparent;
-}
-
-.top-btns {
-  border: none;
-  color: white;
-}
-
-.btn-container {
-  margin: auto;
-  display:inline-block;
-}
-
-#home {
-  background-color: #ffa373;
-  margin: 0.5em;
-}
-
-#blog {
-  background-color: #a8e479;
-  margin:0.5em;
-}
-
-#about {
-  background-color: #a37cee;
-  margin:0.5em;
-}
-
-#mentor{
-  margin: 0.5em;
-}
-
-#part{
-  margin:0.5em;
-}
-
-.mid-btn-container {
-  margin: auto;
-  display:inline-block;
-}
 
 li {
   margin: 0.7rem;
