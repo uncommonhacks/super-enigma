@@ -11,6 +11,11 @@ body{
   background: #82eaff; 
 }
 
+.text {
+  margin: auto;
+  max-width: 800px;
+}
+
 .outer {
   position:relative;
 }
