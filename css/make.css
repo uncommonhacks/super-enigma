@@ -3,15 +3,9 @@
   src: url("../fonts/Beef'd.ttf");
 }
 
-html{
-  height: 100%;
-}
-
 body{
-  height:100%;
-  width: 100%;
   margin:0;
-  font-family: Arial;
+  font-family: Montserrat, sans-serif;
   color: white;
   font-size: 14pt;
   background: #82eaff; 
@@ -36,26 +30,42 @@ body{
 #lvl-1 {
   background-color: #82eaff;  
   text-align:center;
-  height:20vh;
-}
-
-#lvl-2{
-  background-color: #a8e479;
-  padding: 0.5rem;
-  text-align:center;
-  height:20vh;
+  height:100%;
 }
 
 #lvl-3{
+    background-color: #a8e479;
+    text-align:center;
+    height:100%;
+    padding: 3%;
+}
+
+button {
+    border-radius:30px;
+    padding: 8px 25px;
+    font-size: 1.9rem;
+    font-weight: 200;
+    display: inline-block;
+    text-transform: upppercase;
+    text-align: center;
+    color: white;
+    background-color:transparent;
+    border:solid 4px white;
+    cursor: pointer;
+}
+
+#lvl-2{
   background-color: #ffa373;
   padding: 0.5rem;
-  height:20vh;
+  text-align:center;
+  height:100%;
 }
+
 
 #lvl-4{
   background-color: #a37cee;  
   padding: 0.5rem;
-  height:40vh;
+  height:100%;
 }
 
 
