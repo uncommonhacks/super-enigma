@@ -14,7 +14,7 @@ body{
   font-family: Arial;
   color: white;
   font-size: 14pt;
-  background: #a37cee;
+  background: #82eaff; 
 }
 
 .outer {
@@ -32,77 +32,32 @@ body{
   text-align:center;
 }
 
-button {
-  border-radius: 50%;
-  padding: 0.4em 0.7em;
-  font-size: 125%;
-  text-align:center;
-}
 
 #lvl-1 {
   background-color: #82eaff;  
   text-align:center;
+  height:20vh;
 }
 
 #lvl-2{
   background-color: #a8e479;
   padding: 0.5rem;
   text-align:center;
+  height:20vh;
 }
 
 #lvl-3{
   background-color: #ffa373;
   padding: 0.5rem;
+  height:20vh;
 }
 
 #lvl-4{
   background-color: #a37cee;  
   padding: 0.5rem;
+  height:40vh;
 }
 
-.central-btns {
-  color: white;
-  border: 0.5px solid white;
-  background-color: transparent;
-}
-
-.top-btns {
-  border: none;
-  color: white;
-}
-
-.btn-container {
-  margin: auto;
-  display:inline-block;
-}
-
-#home {
-  background-color: #ffa373;
-  margin: 0.5em;
-}
-
-#blog {
-  background-color: #a8e479;
-  margin:0.5em;
-}
-
-#about {
-  background-color: #a37cee;
-  margin:0.5em;
-}
-
-#mentor{
-  margin: 0.5em;
-}
-
-#part{
-  margin:0.5em;
-}
-
-.mid-btn-container {
-  margin: auto;
-  display:inline-block;
-}
 
 li {
   margin: 0.7rem;
