@@ -8,7 +8,7 @@ body{
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 14pt;
-  background: #82eaff; 
+  background: #82eaff;
 }
 
 .text {
@@ -34,37 +34,46 @@ body{
 
 
 #lvl-1 {
-  background-color: #82eaff;  
+  background-color: #82eaff;
   text-align:center;
   height:100%;
 }
 
 #lvl-3{
-    background-color: #82eaff;
-    text-align:center;
-    height:100%;
-    padding-bottom: 3%;
+  background-color: #82eaff;
+  text-align:center;
+  height:100%;
+  padding-bottom: 3%;
 }
 
 button {
-    border-radius:30px;
-    padding: 8px 25px;
-    font-size: 1.3rem;
-    display: inline-block;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    background-color:transparent;
-    border:solid 4px white;
-    cursor: pointer;
+  border-radius:30px;
+  padding: 8px 25px;
+  font-size: 1.3rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+#register-button {
+  font-family: Montserrat, sans-serif;
 }
 
 #tagline{
     font-size: 30px;
   }
+
 #tagline-small{
-    font-size: 24px;
-    padding-bottom:10px;
+  font-size: 24px;
+  padding-bottom:10px;
 }
 
 #lvl-2{
@@ -75,14 +84,14 @@ button {
 
 
 #lvl-4{
-  background-color: #a37cee;  
+  background-color: #a37cee;
   padding: 3rem;
   height:100%;
 }
 
 
 #lvl-5{
-  background-color: #a8e479;  
+  background-color: #a8e479;
   padding: 3rem;
   height:100%;
 }
