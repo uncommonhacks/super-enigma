@@ -171,11 +171,13 @@ a:link, a:visited, a:hover, a:active {
 
 .logo {
   height: 100px;
-  margin-top: 45px;
+  margin-top: 120px;
 }
 
 .mini-logo {
-  height: 27px;
+  height: 21px;
+  margin-top: -33554374px;
+  margin-right: 4px;
   margin-left: 50px;
 }
 
