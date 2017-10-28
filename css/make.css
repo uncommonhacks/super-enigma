@@ -170,7 +170,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .logo {
-  height: 130px;
+  height: 100px;
   margin-top: 85px;
 }
 
@@ -263,7 +263,7 @@ li {
   }
 
   .logo {
-    height: 100px;
+    height: 80px;
   }
 
   .tagline {
