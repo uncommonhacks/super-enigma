@@ -215,3 +215,96 @@ li {
   padding: 0;
   margin: 0 0 40px 0;
 }
+
+@media(max-width: 846px) {
+  .tagline {
+    font-size: 50px;
+  }
+
+  .uncommon {
+    font-size: 15px;
+  }
+
+  .mini-logo {
+    height: 20px;
+  }
+
+  .nav-links {
+    margin-top: 54px;
+  }
+}
+
+@media(max-width: 465px) {
+  .mini-logo {
+    margin-left: 35px;
+  }
+
+  .nav-links {
+    margin-right: 35px;
+  }
+
+  .logo {
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 410px) {
+  .mini-logo {
+    margin-left: 25px;
+  }
+
+  .uncommon {
+    margin-top: 37px;
+  }
+
+  .nav-links {
+    margin-right: 25px;
+    margin-top: 40px;
+  }
+
+  .logo {
+    height: 100px;
+  }
+
+  .tagline {
+    font-size: 45px;
+  }
+
+  .facebook, .twitter, .messenger, .email {
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  .social-media {
+    bottom: 5px;
+  }
+
+  .tagline {
+    margin-top: 15px;
+  }
+
+  #tagline-small {
+    margin-top: 20px;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  button {
+    padding: 13px 30px;
+    font-size: 13px;
+  }
+
+  #lvl-2, #lvl-5, #lvl-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  .tagline {
+    font-size: 40px;
+  }
+
+  .logo {
+    margin-top: 75px;
+  }
+}
