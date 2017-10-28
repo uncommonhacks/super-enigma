@@ -4,6 +4,7 @@
 }
 
 body{
+  height: 100%;
   margin:0;
   font-family: Montserrat, sans-serif;
   color: white;
@@ -13,7 +14,15 @@ body{
 
 .text {
   margin: auto;
-  max-width: 800px;
+  max-width: 1200px;
+}
+
+.descript {
+  font-size: 50px;
+  max-width: 1200px;
+  font-weight: 200;
+  padding: 50px;
+  border: solid 5px white;
 }
 
 .outer {
@@ -36,55 +45,59 @@ body{
 #lvl-1 {
   background-color: #82eaff;  
   text-align:center;
-  height:100%;
-}
-
-#lvl-3{
-    background-color: #82eaff;
-    text-align:center;
-    height:100%;
-    padding-bottom: 3%;
+  color: black;
+  height: 100vh;
+  max-height: 100vh;
 }
 
 button {
+    font-family: Montserrat;
+    font-weight: 300;
     border-radius:30px;
-    padding: 8px 25px;
-    font-size: 1.3rem;
+    padding: 15px 33px;
+    font-size: 14px;
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
     color: white;
-    background-color:transparent;
-    border:solid 4px white;
+    background-color: black;
+    color: #82eaff;
+    border:solid 2px black;
     cursor: pointer;
 }
 
-#tagline{
-    font-size: 30px;
-  }
+button:hover {
+  color: black;
+  background-color: #82eaff;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
 #tagline-small{
-    font-size: 24px;
-    padding-bottom:10px;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    line-height: 27px;
 }
 
 #lvl-2{
   background-color: #ffa373;
-  padding: 3rem;
-  height:100%;
+  padding-top: 90px;
+  margin-bottom: -90px;
+  height: 100vh;
+  max-height: 100vh;
 }
 
 
 #lvl-4{
   background-color: #a37cee;  
   padding: 3rem;
-  height:100%;
 }
 
 
 #lvl-5{
   background-color: #a8e479;  
   padding: 3rem;
-  height:100%;
 }
 
 
@@ -94,4 +107,111 @@ li {
 
 a:link, a:visited, a:hover, a:active {
   color: white;
+}
+
+.uncommon {
+  font-family: "Beef'd";
+  font-size: 20px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.home, .about, .blog {
+  margin-left: 40px;
+}
+
+.fake-nav {
+  text-align: left;
+}
+
+.nav-links {
+  float: right;
+  margin-right: 50px;
+  margin-top: 57px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.social-media {
+  right: 15px;
+  position: fixed;
+  bottom: 30px;
+  color: black;
+}
+
+.media {
+  height: 35px;
+  /* cursor: url('../img/hover.svg'), auto; */
+}
+
+.facebook, .twitter, .messenger, .email {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.no-underline {
+  cursor: pointer;
+}
+
+.no-underline:link, .no-underline:visited, .no-underline:hover, .no-underline:active {
+  text-decoration: none;
+  color: black;
+}
+
+.tagline {
+  display: block;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.make-txt {
+  font-weight: 700;
+}
+
+.logo {
+  height: 130px;
+  margin-top: 85px;
+}
+
+.mini-logo {
+  height: 27px;
+  margin-left: 50px;
+}
+
+.uncommon-bold {
+  font-weight: 500;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.schedule {
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 40px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.sched-box {
+  border: solid 5px white;
+  padding: 20px 50px 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.time {
+  font-weight: 300;
+}
+
+.question {
+  font-weight: 400;
+}
+
+li {
+  padding: 0;
+  margin: 0 0 40px 0;
 }
