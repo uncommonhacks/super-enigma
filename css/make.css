@@ -177,10 +177,7 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 120px;
 }
 
-.mini-logo {
-  height: 21px;
-  margin-top: -33554374px;
-  margin-right: 4px;
+.uncommon {
   margin-left: 50px;
 }
 
@@ -230,18 +227,13 @@ li {
     font-size: 15px;
   }
 
-  .mini-logo {
-    height: 16px;
-    margin-top: -33554377px;
-  }
-
   .nav-links {
     margin-top: 54px;
   }
 }
 
 @media(max-width: 465px) {
-  .mini-logo {
+  .uncommon {
     margin-left: 35px;
   }
 
@@ -255,10 +247,8 @@ li {
 }
 
 @media(max-width: 410px) {
-  .mini-logo {
+  .uncommon {
     margin-left: 25px;
-    height: 15px;
-    margin-top: -33554389px;
   }
 
   .uncommon {
