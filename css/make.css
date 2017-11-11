@@ -3,6 +3,24 @@
   src: url("../fonts/Beef'd.ttf");
 }
 
+#tracks {
+    margin: auto;
+    padding: 20px;
+}
+
+th, td {
+    margin: 20px;
+    padding: 20px;
+}
+
+#lvl-6 {
+    background-color: #EC5958;
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+}
+
 body{
   height: 100%;
   margin:0;
