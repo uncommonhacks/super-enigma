@@ -8,9 +8,16 @@
     padding: 20px;
 }
 
-th, td {
+td {
     margin: 20px;
     padding: 20px;
+    width: 300px;
+}
+
+th {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
 }
 
 #lvl-6 {
